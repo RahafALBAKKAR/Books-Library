@@ -1,17 +1,7 @@
 alert("Welcome to Book library :) ");
 
-alert("Don't show this again");
-
-var preffbook = prompt("Please enter preferred Book?","preffbook");
-
-console.log(preffbook)
-    
-var = userPreference
-if (confirm("Do you want to save Yor preferred Book?") == true) {
-    userPreference = "Data saved successfully!";
-} else {
-    userPreference = "Save Cancelled!";
-}
-Document.write"<h4>preffbook</h4>"
-
+var book = prompt("what is your favoite book?" , "book")
+if(book != null)
+{document .write( "<h5>"+ book + "</h5>")}
+else {alert("Thankyou")}
 

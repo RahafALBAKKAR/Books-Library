@@ -54,6 +54,20 @@ With the author's explanation and definition.
 </main>
 
 <script src="index0.js">
+  <script>
+		 var userPreference;
+
+		if (confirm("Do you want to save changes?") == true) {
+			userPreference = "Data saved successfully!";
+		} else {
+			userPreference = "Save Canceled!";
+		}
+
+		document.getElementById("msg").innerHTML = userPreference; 
+
+    document.getElementById("userPreference").style.color = "blue";
+
+    </script>
 
 </script>
 </body>
