@@ -1,18 +1,10 @@
-alert("Welcome to Book library :) ");
+alert("Hello! In Books library");
+var help =prompt("Do you want any help?")
 
-var book = prompt("what is your favoite book?" , "book")
-if(book != null)
-{var document.write( "<h5>"+ book + "</h5>")}
-else {alert("Thankyou")}
-
- var userPreference;
-
-		if (confirm("Do you want to save changes?") == true) {
-			userPreference = "Data saved successfully!";
-		} else {
-			userPreference = "Save Canceled!";
-		}
-
-		document. getElementById("msg").innerHTML = userPreference; 
-
-    document.getElementById("userPreference").style.color = "blue";
+if (help == "yes"){ var fav =prompt("Could you enter what your preffered Book type ?") 
+var times = prompt( "How many book do toy want download it?") 
+while(times>4){
+  alert("Maximum number of books you are allowed to download is 3 books. ")
+} }
+else { prompt("How we can help you?")}
+document.write("<h5>"+ fav + "</h5>")
