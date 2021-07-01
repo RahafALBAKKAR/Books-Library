@@ -9,7 +9,7 @@ while(times > 4){
 } }
 else { prompt("Thank you")}
 for ( var i = 0 ; i <= times ; i++)
-{document.write innerWidth = 50 ; innerHeight = 50 ("<div >" + "User need 3 books" + "<img  src= 'https://www.incimages.com/uploaded_files/image/1920x1080/getty_655998316_2000149920009280219_363765.jpg' ") + "</div>" }
+{document.write("<div >" + "User need 3 books" + "<img  src= 'https://www.incimages.com/uploaded_files/image/1920x1080/getty_655998316_2000149920009280219_363765.jpg' ") + i + "</div>" }
 var user;
 if (confirm("Do you like the library?") == true) {
 			user = "Welcom!";

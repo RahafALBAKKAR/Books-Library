@@ -79,4 +79,7 @@ th{
  width: 300px;
 
 }
-
+div width: 200px;
+  height: 400px;
+  object-fit: none;
+  object-position: 5px 10%;
