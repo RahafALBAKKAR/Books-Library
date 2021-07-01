@@ -7,13 +7,12 @@ h1 {
  text-align: center;
   box-sizing: border-box;
   font-size: 40px;
-
+  
    border: 2px solid slateblue ;
 }
 
-p {
-  direction: rtl;
-  fill: azure;
+li{
+color: blue;
 }
  h2{
    color: blue;
@@ -25,8 +24,12 @@ font-stretch: inherit;
    align-items: baseline;
   list-style-type: lower-roman
 }
+a:link {
+  color:darkcyan;}
+  
+a:visited {
+  color: rebeccapurple;}
 
-section{
-  position: sticky;
-  right:  
+  a:link {
+  text-decoration: none;
 }
