@@ -8,12 +8,12 @@ while(times >= 4){
 } }
 else { prompt("Thank you")}
 var user;
-if (confirm("Do you the library?") == true) {
+if (confirm("Do you like the library?") == true) {
 			user = "Welcom!";
 		} 
 console.log(fav)
 console.log(times)
 document.write("<h5>" + fav +"</h5>")
-document.write("<h5>" + times +"</h5>")
-document.write("<h5>" + user +"</h5>")
+document.write("<h6>" + times +"</h6>")
+document.write("<h7>" + user +"</h7>")
 console.log(user)

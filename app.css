@@ -38,6 +38,12 @@ font-stretch: inherit;
    font-style: initial;
 font-stretch: inherit;
  }
+ h7{
+   color: black;
+   font-size: 10px;
+   font-style: initial;
+font-stretch: inherit;
+ }
  ul{
    align-items: baseline;
   list-style-type: lower-roman
