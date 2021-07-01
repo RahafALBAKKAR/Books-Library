@@ -20,6 +20,12 @@ color: blue;
    font-style: initial;
 font-stretch: inherit;
  }
+ h3{
+   color: blue;
+   font-size: 18px;
+   font-style: initial;
+font-stretch: inherit;
+ }
  ul{
    align-items: baseline;
   list-style-type: lower-roman
@@ -45,4 +51,7 @@ footer{
   text-decoration-line: none;
   background-color: grey;
   color: black;
+}
+table, th, td {
+  border: 1px solid black;
 }
