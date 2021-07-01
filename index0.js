@@ -7,4 +7,6 @@ while(times>4){
   alert("Maximum number of books you are allowed to download is 3 books. ")
 } }
 else { prompt("How we can help you?")}
-document.write("<h5>"+ fav + "</h5>")
+
+
+
