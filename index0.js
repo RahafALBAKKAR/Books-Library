@@ -21,7 +21,7 @@ if (fav == "Fantasy"){
  if (fav == "Sci-Fi"){
   document.write("<div >" + "User need these books" + " <img src='https://images-na.ssl-images-amazon.com/images/I/512U7YktxHL._SX330_BO1,204,203,200_.jpg'>" + "</div>")  }
   if (fav == "Mystery"){
-  document.write("<div >" + "User need these books" + " <img src='https://images-na.ssl-images-amazon.com/images/I/912ziOwTWgL.jpg'>" + "</div>") } }
+  document.write("<div >" + "User need these books" + " <img src='https://images-na.ssl-images-amazon.com/images/I/912ziOwTWgL.jpg'>" + "<a hrf='https://libribook.com/ebook/18578/the-angels-game-pdf'/>" + "</div>") } }
 
   document.write("<h5>" + fav +"</h5>")
 document.write("<h6>" + times +"</h6>") 
