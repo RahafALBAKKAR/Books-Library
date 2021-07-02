@@ -1,4 +1,5 @@
 
+
 var help = prompt("Hello! In Books library","Do you need any help? yes/No!! ")
 
 if (help !== "yes" ){
@@ -24,15 +25,9 @@ while( times > 4 || times < 0 ){
   document.write("<div >" + "User need these books" + " <img src='https://images-na.ssl-images-amazon.com/images/I/912ziOwTWgL.jpg'>" + "</div>")  }
   }
  
-var user;
-if (confirm("Do you like the library?") == true) {
-			user = "Welcom!";
-		}
- 
 console.log(fav)
 console.log(times)
 document.write("<h5>" + fav +"</h5>")
 document.write("<h6>" + times +"</h6>")
 document.write("<h7>" + user +"</h7>")
 console.log(user)
-
