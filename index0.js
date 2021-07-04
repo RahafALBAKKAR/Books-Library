@@ -25,17 +25,13 @@ if (fav == "Fantasy"){
   }
  download();
 
-var user;
-if (confirm("Do you like the library?") == true) {
-			user = "Welcom!";
-		}
-
+ function rate(){
+   var ratee =prompt("How much you rate our library?","0-5")
+   return ratee;
+ }
+rate();
 
 document.write("<h5>" + fav +"</h5>")
 
-document.write("<h7>" + user +"</h7>")
-
-
 console.log(fav)
-
-console.log(user)
+console.log(rate())
