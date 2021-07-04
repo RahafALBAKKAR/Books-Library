@@ -5,7 +5,7 @@ if (help !== "yes" ){
 
   var fav =prompt("Choose one of these books type from your favorite?",
 "Fantasy,Sci-Fi,Mystery")
-
+function download (){
 var times = prompt("How many books do you want to download it?") 
 
 while( times >= 1 && times > 4 ){
@@ -21,18 +21,21 @@ if (fav == "Fantasy"){
   if (fav == "Mystery"){
   document.write("<div >" + "User need these books" + " <img src='https://images-na.ssl-images-amazon.com/images/I/912ziOwTWgL.jpg'>" + "</div>")  }
   }
+  return times;
+  }
+ download();
 
 var user;
 if (confirm("Do you like the library?") == true) {
 			user = "Welcom!";
 		}
- 
+
 
 document.write("<h5>" + fav +"</h5>")
-document.write("<h6>" + times +"</h6>")
+
 document.write("<h7>" + user +"</h7>")
 
 
 console.log(fav)
-console.log(times)
+
 console.log(user)
