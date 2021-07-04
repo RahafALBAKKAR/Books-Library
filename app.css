@@ -1,6 +1,7 @@
-body {
-  background-color: lightpink;
-
+.body {
+  background-color:rgb(185, 209, 146) ;
+  margin: 20px;
+  padding: 15;
 }
 h1 {
   color:blueviolet;
@@ -79,9 +80,15 @@ th{
  width: 300px;
 
 }
-div width: 200px;
+div {
+  width: 200px;
   height: 400px;
   object-fit:  none;
   object-position ::after;
   float: :right;
 }
+
+ .section{
+   float: left;
+
+ }
