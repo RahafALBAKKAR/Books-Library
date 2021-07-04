@@ -5,6 +5,8 @@ if (help !== "yes" ){
 
   var fav =prompt("Choose one of these books type from your favorite?",
 "Fantasy,Sci-Fi,Mystery")
+document.write("<h5>" + fav +"</h5>")
+
 function download (){
 var times = prompt("How many books do you want to download it?") 
 
@@ -27,11 +29,11 @@ if (fav == "Fantasy"){
 
  function rate(){
    var ratee =prompt("How much you rate our library?","0-5")
+   document.write("<h7>" + "User Rate" + ratee + "</h7>")
    return ratee;
  }
 rate();
 
-document.write("<h5>" + fav +"</h5>")
+
 
 console.log(fav)
-console.log(rate())
